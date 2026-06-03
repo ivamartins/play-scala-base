@@ -18,6 +18,10 @@ import play.api.libs.json._
  * - Maintaining/evolving legacy Play/Java EE systems (e.g. old e-commerce backends).
  * - Adding event-driven layers (Kafka/Flink patterns).
  * - Layering AI agents on top of legacy services.
+ *
+ * PT: Base funcional para projetos de modernização Play Framework.
+ * Demonstra setup moderno Play Scala, modelo de dados "legado", extensível com Kafka, Akka, ES, chamadas de agentes IA, DB.
+ * Ponto de partida para manter/evoluir sistemas legados Play/Java EE, adicionar camadas event-driven, agentes IA sobre serviços legados.
  */
 @Singleton
 class HomeController @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
