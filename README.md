@@ -1,5 +1,14 @@
 # play-scala-base
 
+Base funcional mínima em Play Framework (Scala).
+
+**Este é um framework inicial para manutenção, evolução e modernização de sistemas legados usando Play Framework.**
+
+**Português (resumo):**
+Demonstra setup limpo e moderno de Play Scala. Pronto para estender com Kafka, Akka, Elasticsearch, DBs legados, APIs REST, agentes IA. Perfeito para modernizar apps antigos Play/Java EE/JSF (ex. estilo e-commerce Panvel), backends escaláveis com arquitetura event-driven, e adicionar agentes LLM sobre serviços legados.
+
+**English:**
+
 Minimal, functional Play Framework (Scala) base project.
 
 This is a **starting framework** for maintenance, evolution, and modernization of legacy systems using Play Framework.
