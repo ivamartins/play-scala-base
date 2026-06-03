@@ -11,6 +11,7 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.2" % Test
 
 // For legacy data / DB modernization examples (H2 for base, easy to swap to Postgres)
+libraryDependencies += jdbc
 libraryDependencies += "com.h2database" % "h2" % "2.2.224"
 libraryDependencies += evolutions
 
