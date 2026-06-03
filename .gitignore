@@ -7,3 +7,12 @@ target
 /.project
 /.settings
 /RUNNING_PID
+
+# Environment & Secrets (never commit real keys/tokens)
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+auth/
