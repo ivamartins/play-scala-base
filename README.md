@@ -21,17 +21,45 @@ This is a **starting framework** for maintenance, evolution, and modernization o
   - Building scalable backends with event-driven architecture.
   - Adding AI/LLM agents on top of legacy services.
 
-## Quick start (functional out of the box)
+## Quick Start / Como rodar a aplicação
+
+**Pré-requisitos:** Java 11+ e sbt (Scala Build Tool).
+
+**Passo a passo (funcional):**
+
+1. Clone o repositório e entre na pasta.
+2. Rode:
 
 ```bash
 sbt run
 ```
 
-Open http://localhost:9000
+3. Acesse no navegador: http://localhost:9000
 
+**O que você vê:**
+- Página inicial com template Twirl.
+- Controller básico.
+- Endpoint de demonstração de "legacy orders": http://localhost:9000/legacy-orders (retorna JSON).
+
+**English:**
+
+**Prerequisites:** Java 11+ and sbt.
+
+**Step by step (out of the box):**
+
+1. Clone and `cd` into the folder.
+2. Run:
+
+```bash
+sbt run
+```
+
+3. Open in browser: http://localhost:9000
+
+**What you get:**
 - Home page with Twirl template.
 - Basic controller.
-- Legacy orders demo endpoint (`/legacy-orders`).
+- Legacy orders demo: http://localhost:9000/legacy-orders (JSON response).
 
 ## Running the tests
 
