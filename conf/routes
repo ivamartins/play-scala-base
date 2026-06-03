@@ -6,5 +6,9 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index()
 
+# Legacy orders demo (modern REST over "legacy" data model)
+# Extend this for real DB, events (Kafka), AI agents, etc.
+GET     /legacy-orders              controllers.HomeController.legacyOrders()
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
