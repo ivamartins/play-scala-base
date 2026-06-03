@@ -31,7 +31,37 @@ Open http://localhost:9000
 
 - Home page with Twirl template.
 - Basic controller.
-- Tests with ScalaTest + Play.
+- Legacy orders demo endpoint (`/legacy-orders`).
+
+## Running the tests
+
+**Português:**
+
+```bash
+sbt test
+```
+
+Ou, para limpar e rodar do zero:
+
+```bash
+sbt clean test
+```
+
+Os testes usam ScalaTest + Play (incluem controller direto, injeção e rotas). Todos os testes básicos passam sem serviços externos.
+
+**English:**
+
+```bash
+sbt test
+```
+
+Or clean + run:
+
+```bash
+sbt clean test
+```
+
+Tests use ScalaTest + Play (direct controller, injected, and route tests). Basic unit tests pass without any external services (H2 in-memory + evolutions are handled automatically).
 
 ## Extend it (examples tying to our services)
 
