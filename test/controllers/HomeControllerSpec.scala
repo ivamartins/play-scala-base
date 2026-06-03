@@ -41,5 +41,14 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
       contentType(home) mustBe Some("text/html")
       contentAsString(home) must include ("Welcome to Play")
     }
+
+    "render legacy orders JSON" in {
+      val request = FakeRequest(GET, "/legacy-orders")
+      val result = route(app, request).get
+
+      status(result) mustBe OK
+      contentType(result) mustBe Some("application/json")
+      contentAsString(result) must include ("legacy-play-old")
+    }
   }
 }
