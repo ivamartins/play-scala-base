@@ -1,5 +1,8 @@
 # play-scala-base
 
+[![CI](https://github.com/ivamartins/play-scala-base/actions/workflows/ci.yml/badge.svg)](https://github.com/ivamartins/play-scala-base/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > Part of the **Code Solutions Java Modernization Framework** product line. Starting point for maintaining, evolving, and modernizing legacy systems using Play Framework (Scala).
 
 Minimal, functional Play Framework (Scala) base project.
